@@ -35,4 +35,5 @@ Shell Script project
 
 102-tree - script creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory (advanced)
 
-103-commas - script lists all the files and directories of the current directory, including hidden files and directories, separatedb by commas (advanced)
+103-commas - script lists all the files and directories of the current directory, including hidden files and directories, separated by commas (advanced)
+school - magic file to create school.mgc that can be used with the command file to detect School data files
