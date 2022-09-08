@@ -1,3 +1,5 @@
+Scripts
+MAdatory tasks
 0-iam_betty - script switches the current user to user betty
 
 1-who_am_i - script prints the effective username of the current user
@@ -26,12 +28,14 @@ other users: write and execute
 
 10-mirror_permissions - script sets the permissions of the file hello the same as olleh’s
 
-11-directories_permissions - script adds execute permission to all subdirectories of the current directory for the owner, the group owner, and all other users without changing the permissions for regular files 
+11-directories_permissions - script adds execute permission to all subdirectories of the current directory for the owner, the group owner,
+ and all other users without changing the permissions for regular files 
 
 12-directory_permissions - script creates a directory called my_dir with permissions 751 in the working directory
 
 13-change_group - script changes the group owner to school for the file hello
 
+Advanced tasks
 100-change_owner_and_group - script changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
 
 101-symbolic_link_permissions - script changes the owner and the group owner of _hello to vincent and staff respectively
