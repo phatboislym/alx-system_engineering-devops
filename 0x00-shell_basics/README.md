@@ -1,4 +1,6 @@
-Shell Script project
+Shell, Basics 
+Bash Scripts
+
 Mandatory tasks
 0-current_working_directory - script prints the absolute path name of the current working director
 

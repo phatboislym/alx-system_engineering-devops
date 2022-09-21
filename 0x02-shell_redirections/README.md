@@ -1,6 +1,6 @@
 Shell, I/O Redirections and filters
 
-Scripts
+Bash Scripts
 
 Mandatory tasks
 
