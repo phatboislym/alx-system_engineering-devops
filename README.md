@@ -8,3 +8,5 @@
 0x03-shell_variables_expansions
 
 command_line_for_the_win
+
+0x04-loops_conditions_and_parsing
