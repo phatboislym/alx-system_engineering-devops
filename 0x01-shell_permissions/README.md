@@ -1,5 +1,6 @@
-Shell, Permissions
+Shell, Basics
 Bash Scripts
+
 Mandatory tasks
 0-iam_betty - script switches the current user to user betty
 

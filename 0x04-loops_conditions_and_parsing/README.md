@@ -1,2 +1,5 @@
-Introduction to Loops, Conditionals & Parsing in Bash
-bash scripts
+Shell, Basics
+Introduction to Loops, Conditionals & Parsing
+Bash Scripts
+
+Mandatory tasks
