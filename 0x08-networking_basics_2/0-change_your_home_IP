@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Bash script that configures an Ubuntu server with the below requirements
+# localhost resolves to 127.0.0.2
+# facebook.com resolves to 8.8.8.8
+printf "127.0.0.2\t\tlocalhost\n" > ~/change_home
+printf "8.8.8.8\t\tfacebook.com\n" >> ~/change_home
+cp -f ~/change_home /etc/hosts
