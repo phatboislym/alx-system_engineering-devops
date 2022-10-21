@@ -1,3 +1,4 @@
-##0x08. Networking basics #1
-Introduction to Networking
+#Shell, Basics
+##Introduction to Networking #1
 Bash scripts
+###Mandatory Tasks

@@ -1,7 +1,7 @@
-Shell, Basics
-Bash Scripts
+#Shell, Basics
+##Bash Scripts
 
-Mandatory tasksy
+###Mandatory tasks
 0-alias - a script that creates an alias. Name: ls. Value: rm *
 
 1-hello_you - a script that prints hello user, where user is the current Linux user
@@ -33,7 +33,7 @@ The output should be alpha ordered, starting with aa. Do not print oo. Your scri
 
 13-print_float - a script that prints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM
 
-Advanced tasks
+###Advanced tasks
 
 100-decimal_to_hexadecimal - a script that converts a number from base 10 to base 16. The number in base 10 is stored in the environment variable DECIMAL
 The script should display the number in base 16, followed by a new line

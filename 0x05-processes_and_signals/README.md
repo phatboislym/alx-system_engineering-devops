@@ -1,5 +1,6 @@
-Shell, Basics
-Introduction to Processes and signals
+#Shell, Basics
+##Introduction to Processes and signals
 Bash Scripts
 
-Mandatory tasks
+###Mandatory tasks
+###Advanced tasks

@@ -1,7 +1,8 @@
-Shell, Basics 
+#Shell, Basics 
+##Introduction to Shell Basics
 Bash Scripts
 
-Mandatory tasks
+###Mandatory tasks
 0-current_working_directory - script prints the absolute path name of the current working director
 
 1-listit - script displays the contents list of your current directory
@@ -33,7 +34,7 @@ Mandatory tasks
 14-copy_html - script copies all the HTML files from the current working directory to the parent of the working directory, 
 but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory
 
-Advanced tasks
+###Advanced tasks
 100-lets_move - script moves all files beginning with an uppercase letter to the directory /tmp/u
 
 101-clean_emacs - script deletes all files in the current working directory that end with the character ~.

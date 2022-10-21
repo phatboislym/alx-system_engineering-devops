@@ -1,5 +1,5 @@
-Shell, Basics
-Introduction to Regular expressions
+#Shell, Basics
+##Introduction to Regular expressions
 Ruby Scripts
 
-Mandatory tasks
+###Mandatory tasks

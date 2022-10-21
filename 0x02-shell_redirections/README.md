@@ -1,7 +1,8 @@
-Shell, Basics
+#Shell, Basics
+##Introduction to Shell Redirections
 Bash Scripts
 
-Mandatory tasks
+###Mandatory tasks
 0-hello_world - a script that prints “Hello, World”, followed by a new line to the standard output
 
 1-confused_smiley - a script that displays a confused smiley "(Ôo)'
@@ -49,7 +50,7 @@ Output format: One line, one word. Words should be sorted
 
 22-users_and_homes - a script that displays all users and their home directories, sorted by users. Based on the the /etc/passwd file
 
-Advanced tasks
+###Advanced tasks
 101-gifs - a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
 Hidden files should be listed.Only regular files (not directories) should be listed. The names of the files should be displayed without their extensions
 The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file a, 
