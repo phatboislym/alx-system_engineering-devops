@@ -1,65 +1,57 @@
-#Shell, Basics
-##Introduction to Shell Redirections
-Bash Scripts
+# Shell, I/O Redirections and filters
 
-###Mandatory tasks
-0-hello_world - a script that prints “Hello, World”, followed by a new line to the standard output
+## Mandatory tasks
 
-1-confused_smiley - a script that displays a confused smiley "(Ôo)'
+* [0-hello_world](./0-hello_world)
 
-2-hellofile - a script that displays the content of the /etc/passwd file
+* [1-confused_smiley](./1-confused_smiley)
 
-3-twofiles - a script that displays the content of /etc/passwd and /etc/hosts
+* [2-hellofile](./2-hellofile)
 
-4-lastlines - a script that displays the last 10 lines of /etc/passwd
+* [3-twofiles](./3-twofiles)
 
-6-third_line - a script that displays the first 10 lines of /etc/passwd
+* [4-lastlines](./4-lastlines)
 
-7-file - a script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line
+* [5-firstlines](./5-firstlines)
 
-8-cwd_state - a script that writes into the file ls_cwd_content the result of the command ls -la. 
-If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it
+* [6-third_line](./6-third_line)
 
-9-duplicate_last_line - a script that duplicates the last line of the file iacta. The file iacta will be in the working directory
+* [7-file](./7-file)
 
-10-no_more_js - a script that  deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders
+* [8-cwd_state](./8-cwd_state)
 
-11-directories - a script that counts the number of directories and sub-directories in the current directory.
-The current and parent directories should not be taken into account. Hidden directories should be counted
+* [9-duplicate_last_line](./9-duplicate_last_line)
 
-12-newest_files - a script that displays the 10 newest files in the current directory. One file per line, sorted from the newest to the oldest
+* [10-no_more_js](./10-no_more_js)
 
-13-unique - a script that takes a list of words as input and prints only words that appear exactly once. Input format: One line, one word
-Output format: One line, one word. Words should be sorted
+* [11-directories](./11-directories)
 
-14-findthatword - a script that displays lines containing the pattern “root” from the file /etc/passwd
+* [12-newest_files](./12-newest_files)
 
-15-countthatword - a script that displays the number of lines that contain the pattern “bin” in the file /etc/passwd
+* [13-unique](./13-unique)
 
-16-whatsnext - a script that displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
+* [14-findthatword](./14-findthatword)
 
-17-hidethisword - a script that displays the lines in the file /etc/passwd that do not contain the pattern “bin”
+* [15-countthatword](./15-countthatword)
 
-18-letteronly - a script that displays all lines of the file /etc/ssh/sshd_config starting with a letter. include capital letters as well
+* [16-whatsnext](./16-whatsnext)
 
-19-AZ - a script that replaces all characters A and c from input to Z and e respectively
+* [17-hidethisword](./17-hidethisword)
 
-20-hiago - a script that removes all letters c and C from input
+* [18-letteronly](./18-letteronly)
 
-21-reverse - a script that reverse its input
+* [19-AZ](./19-AZ)
 
-22-users_and_homes - a script that displays all users and their home directories, sorted by users. Based on the the /etc/passwd file
+* [20-hiago](./20-hiago)
 
-###Advanced tasks
-101-gifs - a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
-Hidden files should be listed.Only regular files (not directories) should be listed. The names of the files should be displayed without their extensions
-The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file a, 
-and file Rona should be listed after file jay)
-One file name per line. The listing should end with a new line
-You are not allowed to use basename, grep, egrep, fgrep or rgrep
+* [21-reverse](./21-reverse)
 
-102-acrostic - a script that decodes acrostics that use the first letter of each line.
-The ‘decoded’ message has to end with a new line. You are not allowed to use grep, egrep, fgrep or rgrep
+* [22-users_and_homes](./22-users_and_homes)
 
-103-the_biggest_fan - a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
-Order by number of requests, most active host or IP at the top. You are not allowed to use grep, egrep, fgrep or rgrep
+## Advanced tasks
+
+* [101-gifs](./101-gifs)
+
+* [102-acrostic](./102-acrostic)
+
+* [103-the_biggest_fan](./103-the_biggest_fan)

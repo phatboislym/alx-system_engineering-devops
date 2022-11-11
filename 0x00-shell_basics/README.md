@@ -1,46 +1,47 @@
-#Shell, Basics 
-##Introduction to Shell Basics
-Bash Scripts
+# Shell, Basics
 
-###Mandatory tasks
-0-current_working_directory - script prints the absolute path name of the current working director
+![RTFM](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/205/image.jpg)
 
-1-listit - script displays the contents list of your current directory
+## Mandatory tasks
 
-2-bring_me_home - script changes the working directory to the user's home directory
+* [0. Where am I?](./0-current_working_directory)
 
-3-listfiles - script displays current directory's contents in long format
+* [1. What’s in there?](./1-listit)
 
-4-listmorefiles - script displays the current directory's contents including hidden files in long format
+* [2. There is no place like home](./2-bring_me_home)
 
-5-listfilesdigitonly - script displays the current directory's content including hidden files in long format with user and group IDs
+* [3. The long format](./3-listfiles)
 
-6-firstdirectory - script creates a directory in the /tmp/ directory
+* [4. Hidden files](./4-listmorefiles)
 
-7-movethatfile - script moves a file from /tmp/ directory to /tmp/my_first_directory
+* [5. I love numbers](./5-listfilesdigitonly)
 
-8-firstdelete - script deletes a file in /tmp/my_first_directory
+* [6. Welcome](./6-firstdirectory)
 
-9-firstdirdeletion - script deletes directory my_first_directory that is in the /tmp directory
+* [7. Betty in my first directory](./7-movethatfile)
 
-10-back - script changes the working directory to the previous directory
+* [8. Bye bye Betty](./8-firstdelete)
 
-11-lists - script lists all the files including hidden files in the working directory, the parent directory and the /boot/ directory in long format
+* [9. Bye bye My first directory](./9-firstdirdeletion)
 
-12-file_type - script prints the type of a file iamafile in the /tmp/ directory
+* [10. Back to the future](./10-back)
 
-13-symbolic_link - script creates a symbolic link /bin/ls named __ls__ in the current working directory
+* [11. Lists](./11-lists)
 
-14-copy_html - script copies all the HTML files from the current working directory to the parent of the working directory, 
-but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory
+* [12. File type](./12-file_type)
 
-###Advanced tasks
-100-lets_move - script moves all files beginning with an uppercase letter to the directory /tmp/u
+* [13. We are symbols, and inhabit symbols](./13-symbolic_link)
 
-101-clean_emacs - script deletes all files in the current working directory that end with the character ~.
+* [14. Copy HTML files](./14-copy_html)
 
-102-tree - script creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory
+## Advanced tasks
 
-103-commas - script lists all the files and directories of the current directory, including hidden files and directories, separated by commas
+* [15. Let’s move](./100-lets_move)
 
-school - magic file to create school.mgc that can be used with the command file to detect School data files
+* [16. Clean Emacs](./101-clean_emacs)
+
+* [17. Tree](./102-tree)
+
+* [18. Life is a series of commas, not periods](./103-commas)
+
+* [19. File type: School](school.mgc)

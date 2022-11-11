@@ -1,48 +1,41 @@
-#Shell, Basics
-##Introduction to Shell Permissions
-Bash Scripts
+# Shell, permissions
 
-###Mandatory tasks
-0-iam_betty - script switches the current user to user betty
+## Mandatory tasks
 
-1-who_am_i - script prints the effective username of the current user
+* [0-iam_betty](./0-iam_betty)
 
-2-groups - script prints all the groups the current user is part of
+* [1-who_am_i](./1-who_am_i)
 
-3-new_owner - script changes the owner of the file hello to the user betty
+* [2-groups](./2-groups)
 
-4-empty - script creates an empty file called hello
+* [3-new_owner](./3-new_owner)
 
-5-execute - script adds execute permission to the owner of the file hello
+* [4-empty](./4-empty)
 
-6-multiple_permissions - script adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
+* [5-execute](./5-execute)
 
-7-everybody - script adds execution permission to the owner, the group owner and the other users, to the file hello
+* [6-multiple_permissions](./6-multiple_permissions)
 
-8-James_Bond - script sets the permissions to the file hello as follows
-owner: no permission at all
-group: no permission at all
-other users: all the permissions
+* [7-everybody](./7-everybody)
 
-9-John_Doe - script sets the permissions to the file as follows
-owner: read, write and execute
-group: read and execute
-other users: write and execute
+* [8-James_Bond](./8-James_Bond)
 
-10-mirror_permissions - script sets the permissions of the file hello the same as olleh’s
+* [9-John_Doe](./9-John_Doe)
 
-11-directories_permissions - script adds execute permission to all subdirectories of the current directory for the owner, the group owner,
- and all other users without changing the permissions for regular files 
+* [10-mirror_permissions](./10-mirror_permissions)
 
-12-directory_permissions - script creates a directory called my_dir with permissions 751 in the working directory
+* [11-directories_permissions](./11-directories_permissions)
 
-13-change_group - script changes the group owner to school for the file hello
+* [12-directory_permissions](./12-directory_permissions)
 
-###Advanced tasks
-100-change_owner_and_group - script changes the owner to vincent and the group owner to staff for all the files and directories in the working directory
+* [13-change_group](./13-change_group)
 
-101-symbolic_link_permissions - script changes the owner and the group owner of _hello to vincent and staff respectively
+## Advanced tasks
 
-102-if_only - script changes the owner of the file hello to betty only if it is owned by the user guillaume
+* [100-change_owner_and_group](./100-change_owner_and_group)
 
-103-Star_Wars - script will play the StarWars IV episode in the terminal
+* [101-symbolic_link_permissions](./101-symbolic_link_permissions)
+
+* [102-if_only](./102-if_only)
+
+* [103-Star_Wars](./103-Star_Wars)
