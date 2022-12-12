@@ -10,4 +10,4 @@
 
 ## Advanced Task
 
-* [3. Let me in!](100-puppet_ssh_config.pp)
+* [4. Client configuration file (w/ Puppet)](100-puppet_ssh_config.pp)
