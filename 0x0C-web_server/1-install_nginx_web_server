@@ -7,11 +7,7 @@
 # it must return a page that contains the string "Hello World!"
 # You can’t use systemctl for restarting nginx
 
-
-apt-get -y update 
+apt-get update
 apt-get -y install nginx
-mkdir /etc/nginx/html
-touch /etc/nginx/html/index.html
-echo "Hello World!" | sudo tee /usr/share/nginx/html/index.html
-service nginx restart
-
+echo 'Hello World!' | sudo tee /var/www/html/index.html
+service nginx start
