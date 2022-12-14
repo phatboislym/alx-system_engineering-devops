@@ -14,3 +14,4 @@
 * [0x0A. Configuration management](0x0A-configuration_management)
 * [0x0B. SSH](0x0B-ssh)
 * [0x0C. Web server](0x0C-web_server)
+* [0x0D. Web stack debugging #0](0x0D-web_stack_debugging_0)
