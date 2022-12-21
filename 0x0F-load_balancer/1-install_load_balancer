@@ -5,41 +5,18 @@
 # Distribute requests using a roundrobin algorithm
 # Make sure that HAproxy can be managed via an init script
 
-sudo apt-get install -y software-properties-common
-sudo add-apt-repository -y ppa:vbernat/haproxy-2.5
-sudo apt-get update && sudo apt-get install -y haproxy=2.5.\*
+sudo apt update && sudo apt install -y haproxy
 
-echo "ENABLED=1" >> /etc/default/haproxy
-sudo mv /etc/haproxy/haproxy.cfg{,.orig}
-sudo touch /etc/haproxy/haproxy.cfg
+printf %s "frontend main
+	bind *:80
+	mode http
+	default_backend servers
 
-printf %s "global
-    log 127.0.0.1 local0 notice
-    maxconn 2000
-    user haproxy
-    group haproxy
+backend servers
+	balance roundrobin
+  server 53450-web-01 54.237.5.137 check
+  server 53450-web-02 34.237.91.118 check
+" | sudo tee -a /etc/haproxy/haproxy.cfg
 
-defaults
-    log     global
-    mode    http
-    option  httplog
-    option  dontlognull
-    retries 3
-    option redispatch
-    timeout connect  5000
-    timeout client  10000
-    timeout server  10000
-
-listen hbnb
-    bind 0.0.0.0:80
-    mode http
-    stats enable
-    stats uri /haproxy?stats
-    balance roundrobin
-    option httpclose
-    option forwardfor
-    server 53450-web-01 54.237.5.137 check
-    server 53450-web-02 34.237.91.118 check
-" >> /etc/haproxy/haproxy.cfg
-
-sudo service haproxy start
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
+sudo service haproxy restart
