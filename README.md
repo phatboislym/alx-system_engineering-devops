@@ -17,5 +17,5 @@
 * [0x0E. Web stack debugging #1](0x0E-web_stack_debugging_1)
 * [0x0F. Load balancer](0x0F-load_balancer)
 * [0x10. HTTPS SSL](0x10-https_ssl)
+* [0x11. What happens when you type google.com in your browser and press Enter](0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter)
 * [Command line for the win](command_line_for_the_win)
-
