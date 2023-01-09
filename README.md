@@ -18,4 +18,5 @@
 * [0x0F. Load balancer](0x0F-load_balancer)
 * [0x10. HTTPS SSL](0x10-https_ssl)
 * [0x11. What happens when you type google.com in your browser and press Enter](0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter)
+* [0x13. Firewall](0x13-firewall)
 * [Command line for the win](command_line_for_the_win)
