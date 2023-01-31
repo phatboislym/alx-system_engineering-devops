@@ -11,7 +11,7 @@ def top_ten(subreddit):
     function that queries the Reddit API and prints the titles of the first 10
     """
     api = "https://api.reddit.com"
-    headers = {"User-Agent": "ChangeMeClient/0.1 by kolaoba"}
+    headers = {"User-Agent": "my-custom-user-agent"}
     params = {"limit": 10}
     response = fetch("{}/r/{}/hot".format(api, subreddit), headers=headers,
                      params=params)
