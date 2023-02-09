@@ -1,7 +1,10 @@
-$file = '/etc/nginx/nginx.conf'
+# a Puppet script that increases the amount of traffic an Nginx server can
+#+ handle by increasing the ULIMIT in the default file
+
+$file = '/etc/default/nginx'
 
 exec { 'edit_in_place':
-  command => "sed -i '2s/4/auto/' ${file}",
+  command => "sed -i '5s/15/4096/' ${file}",
   path    => '/usr/bin:/usr/sbin:/bin:/sbin',
   notify  => Exec['restart_nginx']
 }
