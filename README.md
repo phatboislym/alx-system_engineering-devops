@@ -1,5 +1,12 @@
 # System Engineering & DevOps
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/phatboislym/alx-system_engineering-devops?style=plastic)
+![GitHub repo directory count](https://img.shields.io/github/directory-file-count/phatboislym/alx-system_engineering-devops?style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/phatboislym/alx-system_engineering-devops?style=plastic)
+![Lines of code](https://img.shields.io/tokei/lines/github/phatboislym/alx-system_engineering-devops)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/phatboislym/alx-system_engineering-devops)
+![GitHub last commit](https://img.shields.io/github/last-commit/phatboislym/alx-system_engineering-devops)
+
 * [0x00. Shell, basics](0x00-shell_basics)
 * [0x01. Shell, permissions](0x01-shell_permissions)
 * [0x02. Shell, I/O Redirections and filters](0x02-shell_redirections)
@@ -28,4 +35,3 @@
 * [0x1A. Application server](0x1A-application_server)
 * [0x1B. Web stack debugging #4](0x1B-web_stack_debugging_4)
 * [Command line for the win](command_line_for_the_win)
-
